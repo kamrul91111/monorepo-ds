@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo-ds/root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna clean -y && lerna bootstrap --hoist",
+    "start": "lerna run start",
+    "clean": "lerna clean -y",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lerna": "^6.0.1"
+  }
+}
